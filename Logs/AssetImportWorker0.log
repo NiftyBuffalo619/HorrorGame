@@ -15,7 +15,7 @@ D:/Programování/NEW PROJECTS ON NAS/Unity/NEWHORRORGAME/HorrorGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-1513
+54618
 Successfully changed project path to: D:/Programování/NEW PROJECTS ON NAS/Unity/NEWHORRORGAME/HorrorGame
 D:/Programování/NEW PROJECTS ON NAS/Unity/NEWHORRORGAME/HorrorGame
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ D:/Programování/NEW PROJECTS ON NAS/Unity/NEWHORRORGAME/HorrorGame
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 107.42 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 100.08 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.7f1 (6bd9e232123f)
 [Subsystems] Discovering subsystems at path D:/Unity 2021.2.7f1/Editor/Data/Resources/UnitySubsystems
@@ -58,80 +58,80 @@ Direct3D:
     Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
     Vendor:   NVIDIA
     VRAM:     4017 MB
-    Driver:   31.0.15.3130
+    Driver:   31.0.15.3640
 Initialize mono
 Mono path[0] = 'D:/Unity 2021.2.7f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity 2021.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Unity 2021.2.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56332
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56228
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity 2021.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002262 seconds.
+Registered in 0.002285 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 102.69 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 98.42 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.738 seconds
+- Completed reload, in  0.635 seconds
 Domain Reload Profiling:
-	ReloadAssembly (739ms)
-		BeginReloadAssembly (73ms)
+	ReloadAssembly (635ms)
+		BeginReloadAssembly (71ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (595ms)
-			LoadAssemblies (72ms)
+		EndReloadAssembly (494ms)
+			LoadAssemblies (70ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (187ms)
+			SetupTypeCache (103ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (326ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (311ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
+				InitializePlatformSupportModulesInManaged (14ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (103ms)
+				RefreshPlugins (98ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (156ms)
-				ProcessInitializeOnLoadMethodAttributes (51ms)
+				ProcessInitializeOnLoadAttributes (148ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005052 seconds.
+Registered in 0.004538 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Programování\NEW PROJECTS ON NAS\Unity\NEWHORRORGAME\HorrorGame\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Programování\NEW PROJECTS ON NAS\Unity\NEWHORRORGAME\HorrorGame\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.102 seconds
+- Completed reload, in  1.019 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1103ms)
-		BeginReloadAssembly (122ms)
+	ReloadAssembly (1020ms)
+		BeginReloadAssembly (107ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (22ms)
-		EndReloadAssembly (879ms)
-			LoadAssemblies (82ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (819ms)
+			LoadAssemblies (75ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (293ms)
+			SetupTypeCache (287ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (56ms)
-			SetupLoadedEditorAssemblies (403ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (360ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (85ms)
-				ProcessInitializeOnLoadAttributes (275ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (241ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -140,12 +140,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3226 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 25 unused Assets / (87.4 KB). Loaded Objects now: 3706.
-Memory consumption went from 131.6 MB to 131.5 MB.
-Total: 3.781500 ms (FindLiveObjects: 0.286200 ms CreateObjectMapping: 0.207900 ms MarkObjects: 3.174100 ms  DeleteObjects: 0.112100 ms)
+Memory consumption went from 131.6 MB to 131.6 MB.
+Total: 3.364800 ms (FindLiveObjects: 0.323400 ms CreateObjectMapping: 0.226400 ms MarkObjects: 2.706000 ms  DeleteObjects: 0.107700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -159,67 +159,37 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 9964.070821 seconds.
-  path: Assets/Models/gymikclassenterence.blend
-  artifactKey: Guid(43f9a2f09b2c534479751458c1ea1f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/gymikclassenterence.blend using Guid(43f9a2f09b2c534479751458c1ea1f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14fd72b392c5a4974493b6a5f84279c5') in 0.201715 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Models/gymikwallwindow.blend
-  artifactKey: Guid(7aec1876006273c4da4ad725676f82e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/gymikwallwindow.blend using Guid(7aec1876006273c4da4ad725676f82e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '329fb9a6ecc6beb8fd23389435650372') in 0.026577 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Models/gymikwall.blend
-  artifactKey: Guid(a66a263f2daabc84ab227d18307f2127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/gymikwall.blend using Guid(a66a263f2daabc84ab227d18307f2127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c322d35fcea5ea62b1e32ec8630f1ba') in 0.021591 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Models/floor.blend
-  artifactKey: Guid(3d8e4e169a4f7e64f8d6966dff98df97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/floor.blend using Guid(3d8e4e169a4f7e64f8d6966dff98df97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b24c83291901e161d0fb8f3de332679c') in 0.046795 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 90.388440 seconds.
-  path: Assets/Models/gymikwall.blend
-  artifactKey: Guid(a66a263f2daabc84ab227d18307f2127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/gymikwall.blend using Guid(a66a263f2daabc84ab227d18307f2127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fe78365cff2925e05a9f111ced20f95') in 0.021855 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 85.543727 seconds.
+  Time since last request: 26583.671765 seconds.
   path: Assets/Models/gymikclasswindow.blend
   artifactKey: Guid(e9657a2162cd26b42b93d4e8d636cee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/gymikclasswindow.blend using Guid(e9657a2162cd26b42b93d4e8d636cee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bbd11c0de99e421c50455fdbdc5ae6e') in 0.026649 seconds 
+Start importing Assets/Models/gymikclasswindow.blend using Guid(e9657a2162cd26b42b93d4e8d636cee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c337f72e09a1ad0cedbff287fd00e258') in 0.221580 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Models/gymikwall.blend
-  artifactKey: Guid(a66a263f2daabc84ab227d18307f2127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/gymikwall.blend using Guid(a66a263f2daabc84ab227d18307f2127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98b7294b1fff055ca699415962feadf9') in 0.017947 seconds 
+  Time since last request: 4.046997 seconds.
+  path: Assets/Models/Desk
+  artifactKey: Guid(5a43ee2fb5fdfba4485717a8f4013742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Desk using Guid(5a43ee2fb5fdfba4485717a8f4013742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3b61488282d5dcf6d13bdb81f3f17c4') in 0.003217 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 319.322550 seconds.
-  path: Assets/Models/gymikclasswindow.blend
-  artifactKey: Guid(e9657a2162cd26b42b93d4e8d636cee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/gymikclasswindow.blend using Guid(e9657a2162cd26b42b93d4e8d636cee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3cb2de4a3df219b05177ebb306b578c') in 0.237578 seconds 
+  Time since last request: 36.032181 seconds.
+  path: Assets/Models/Desk/desk.fbx
+  artifactKey: Guid(9140ec70f2030874e882e73e1cdf9973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Desk/desk.fbx using Guid(9140ec70f2030874e882e73e1cdf9973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83c1c23e401253ea03bffebb92c80f6c') in 0.071572 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 351.388878 seconds.
-  path: Assets/Models/gymikclasswindow.blend
-  artifactKey: Guid(e9657a2162cd26b42b93d4e8d636cee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/gymikclasswindow.blend using Guid(e9657a2162cd26b42b93d4e8d636cee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6a8e159908fe3fbd6ad324b92e8c8d0') in 0.023301 seconds 
+  Time since last request: 235.231116 seconds.
+  path: Assets/Models/Desk/desk.fbx
+  artifactKey: Guid(9140ec70f2030874e882e73e1cdf9973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Desk/desk.fbx using Guid(9140ec70f2030874e882e73e1cdf9973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '616a519102bf4ee445d06ac17d61b116') in 0.041665 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 24.737284 seconds.
-  path: Assets/Models/gymikclasswindow.blend
-  artifactKey: Guid(e9657a2162cd26b42b93d4e8d636cee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/gymikclasswindow.blend using Guid(e9657a2162cd26b42b93d4e8d636cee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2880297f93b228b0f694bc72a2dee30b') in 0.046961 seconds 
+  Time since last request: 3.850598 seconds.
+  path: Assets/Models/Desk/desk.fbx
+  artifactKey: Guid(9140ec70f2030874e882e73e1cdf9973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Desk/desk.fbx using Guid(9140ec70f2030874e882e73e1cdf9973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d58b86f0e338103a918ef4a3051bad3') in 0.020111 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 115.192684 seconds.
-  path: Assets/Models/gymikclasswindow.blend
-  artifactKey: Guid(e9657a2162cd26b42b93d4e8d636cee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/gymikclasswindow.blend using Guid(e9657a2162cd26b42b93d4e8d636cee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '311fa4152a00950383ec786fa093e2ff') in 0.078586 seconds 
+  Time since last request: 0.000021 seconds.
+  path: Assets/Models/Desk/Texture.png
+  artifactKey: Guid(ab76bdbb681f2e3469e2fe69d1788183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Desk/Texture.png using Guid(ab76bdbb681f2e3469e2fe69d1788183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99747e3569bbe41f8c3ee937d88cb799') in 0.029576 seconds 
