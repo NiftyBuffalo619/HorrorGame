@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 76
+  controlID: 98
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 23
+  controlID: 21
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -249,7 +249,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 95
+  controlID: 109
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -414,22 +414,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: "D:\\Programov\xE1n\xED\\NEW PROJECTS ON NAS\\Unity\\NEWHORRORGAME\\HorrorGame"
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 9c5b0000
-    m_LastClickedID: 23452
-    m_ExpandedIDs: 000000008c5b000000ca9a3bffffff7f
+    m_SelectedIDs: 865b0000
+    m_LastClickedID: 23430
+    m_ExpandedIDs: 00000000865b0000945b000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -457,7 +457,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000008c5b0000
+    m_ExpandedIDs: 00000000865b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -484,7 +484,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000d85b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -584,10 +584,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
+      scrollPos: {x: 0, y: 211}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 00fbffff
+      m_ExpandedIDs: 04fbffff56590000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -836,9 +836,9 @@ MonoBehaviour:
   m_PlayAudio: 1
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 31.483692, y: 4.5872297, z: -7.056638}
+    m_Target: {x: 8.60855, y: 4.2547846, z: -1.8301495}
     speed: 2
-    m_Value: {x: 31.483692, y: 4.5872297, z: -7.056638}
+    m_Value: {x: 8.60855, y: 4.2547846, z: -1.8301495}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -885,9 +885,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.013028627, y: 0.4925344, z: -0.004371682, w: 0.8696048}
+    m_Target: {x: -0.0038853628, y: 0.7447405, z: 0.008596093, w: 0.66653156}
     speed: 2
-    m_Value: {x: 0.013028628, y: 0.49253443, z: -0.0043716826, w: 0.8696048}
+    m_Value: {x: -0.0048887404, y: 0.74510247, z: 0.009717091, w: 0.66686124}
   m_Size:
     m_Target: 4.3045454
     speed: 2
