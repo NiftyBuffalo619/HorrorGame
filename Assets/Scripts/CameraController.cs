@@ -13,10 +13,13 @@ public class CameraController : MonoBehaviour
     [SerializeField] public AnimationClip ExitAnimation;
     [SerializeField] public Canvas MainUI;
     [SerializeField] public Canvas PlayUI;
+    [SerializeField] public Canvas ExitUI;
     void Start()
     {
         PlayUI.enabled = false;
+        ExitUI.enabled = false;
         animator = GetComponent<Animator>();
+        Debug.Log("UI Successfully started");
     }
     void Update()
     {
@@ -28,21 +31,27 @@ public class CameraController : MonoBehaviour
         animator.Play("FilmMoveCamera");
         MainUI.enabled = false;
         PlayUI.enabled = true;
+        Debug.Log("Moved to film");
     }
 
     public void MoveBackFromFilm()
     {
-       // animator.Play("FilmMoveBack");
+       animator.Play("MoveBackFromFilm");
        MainUI.enabled = true;
        PlayUI.enabled = false;
+       Debug.Log("Moved back from film");
     }
     public void MoveToDoor()
     {
         animator.Play("ExitMoveCamera");
+        MainUI.enabled = false;
+        ExitUI.enabled = true;
     }
 
     public void MoveBackFromDoor()
     {
-        
+        MainUI.enabled = true;
+        ExitUI.enabled = false;
+        animator.Play("MoveBackFromDoor");
     }
 }

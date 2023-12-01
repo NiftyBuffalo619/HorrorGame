@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638060380633120766
-    m_Hash: 634930817
+      ticks: 638370474047768572
+    m_Hash: 879630644
   m_LockFileStatus:
     m_FilePath: "D:/Programov\xE1n\xED/NEW PROJECTS ON NAS/Unity/NEWHORRORGAME/HorrorGame/Packages/packages-lock.json"
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638060380902629400
-    m_Hash: 3302214895
+      ticks: 638370474048521378
+    m_Hash: 374374789
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -36,7 +36,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Editor
-  type: 
+  type: asset
   description: The Version Control package gives you the ability to use either Collaborate
     or Plastic SCM for Unity (beta) in the Unity editor. To use Plastic SCM for Unity
     (beta), a Plastic SCM subscription is required. Learn more about how you can
@@ -78,12 +78,25 @@ m_ResolvedPackages:
     - 1.14.9
     - 1.14.12
     - 1.14.13
+    - 1.14.15
+    - 1.14.16
+    - 1.14.17
+    - 1.14.18
     - 1.15.1
     - 1.15.4
     - 1.15.7
     - 1.15.9
     - 1.15.12
     - 1.15.13
+    - 1.15.15
+    - 1.15.16
+    - 1.15.17
+    - 1.15.18
+    - 1.17.0
+    - 1.17.1
+    - 1.17.2
+    - 1.17.6
+    - 1.17.7
     - 2.0.0-preview.6
     - 2.0.0-preview.8
     - 2.0.0-preview.15
@@ -91,15 +104,32 @@ m_ResolvedPackages:
     - 2.0.0-preview.20
     - 2.0.0-preview.21
     - 2.0.0-preview.22
+    - 2.0.0
+    - 2.0.1
+    - 2.0.3
+    - 2.0.4
+    - 2.0.5
+    - 2.0.7
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
+    - 2.1.0
+    - 2.2.0
     compatible:
     - 1.15.4
     - 1.15.7
     - 1.15.9
     - 1.15.12
     - 1.15.13
+    - 1.15.15
+    - 1.15.16
+    - 1.15.17
+    - 1.15.18
+    - 1.17.0
+    - 1.17.1
+    - 1.17.2
+    - 1.17.6
+    - 1.17.7
     - 2.0.0-preview.6
     - 2.0.0-preview.8
     - 2.0.0-preview.15
@@ -107,10 +137,18 @@ m_ResolvedPackages:
     - 2.0.0-preview.20
     - 2.0.0-preview.21
     - 2.0.0-preview.22
+    - 2.0.0
+    - 2.0.1
+    - 2.0.3
+    - 2.0.4
+    - 2.0.5
+    - 2.0.7
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
-    verified: 1.15.13
+    - 2.1.0
+    - 2.2.0
+    verified: 1.15.18
   dependencies:
   - name: com.unity.nuget.newtonsoft-json
     version: 2.0.0
@@ -118,10 +156,12 @@ m_ResolvedPackages:
     version: 1.0.1
   resolvedDependencies:
   - name: com.unity.nuget.newtonsoft-json
-    version: 2.0.0
+    version: 3.1.0
   - name: com.unity.services.core
-    version: 1.0.1
+    version: 1.8.2
   - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.modules.androidjni
     version: 1.0.0
   keywords:
   - backup
@@ -144,7 +184,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637726568460000000
   documentationUrl: 
@@ -257,7 +297,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: The JetBrains Rider Editor package provides an integration for using
     the JetBrains Rider IDE as a code editor for Unity. It adds support for generating
     .csproj files for code completion and auto-discovery of installations.
@@ -293,12 +333,36 @@ m_ResolvedPackages:
     - 3.0.9
     - 3.0.10
     - 3.0.12
+    - 3.0.13
+    - 3.0.14
+    - 3.0.15
+    - 3.0.16
+    - 3.0.17
+    - 3.0.18
+    - 3.0.20
+    - 3.0.21
+    - 3.0.22
+    - 3.0.24
+    - 3.0.25
+    - 3.0.26
     compatible:
     - 3.0.7
     - 3.0.9
     - 3.0.10
     - 3.0.12
-    verified: 3.0.12
+    - 3.0.13
+    - 3.0.14
+    - 3.0.15
+    - 3.0.16
+    - 3.0.17
+    - 3.0.18
+    - 3.0.20
+    - 3.0.21
+    - 3.0.22
+    - 3.0.24
+    - 3.0.25
+    - 3.0.26
+    verified: 3.0.26
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
@@ -313,7 +377,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637572251600000000
   documentationUrl: 
@@ -340,7 +404,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: Code editor integration for supporting Visual Studio as code editor
     for unity. Adds support for generating csproj files for intellisense purposes,
     auto discovery of installations, etc.
@@ -365,10 +429,24 @@ m_ResolvedPackages:
     - 2.0.11
     - 2.0.12
     - 2.0.14
+    - 2.0.15
+    - 2.0.16
+    - 2.0.17
+    - 2.0.18
+    - 2.0.20
+    - 2.0.21
+    - 2.0.22
     compatible:
     - 2.0.12
     - 2.0.14
-    verified: 2.0.14
+    - 2.0.15
+    - 2.0.16
+    - 2.0.17
+    - 2.0.18
+    - 2.0.20
+    - 2.0.21
+    - 2.0.22
+    verified: 2.0.22
   dependencies:
   - name: com.unity.test-framework
     version: 1.1.9
@@ -389,7 +467,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637720564750000000
   documentationUrl: 
@@ -416,7 +494,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: Code editor integration for supporting Visual Studio Code as code
     editor for unity. Adds support for generating csproj files for intellisense purposes,
     auto discovery of installations, etc.
@@ -451,7 +529,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637660806170000000
   documentationUrl: 
@@ -464,6 +542,128 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.2.4
     nextVersion: 
+- packageId: com.unity.services.lobby@1.1.1
+  testable: 0
+  isDirectDependency: 1
+  version: 1.1.1
+  source: 1
+  resolvedPath: "D:\\Programov\xE1n\xED\\NEW PROJECTS ON NAS\\Unity\\NEWHORRORGAME\\HorrorGame\\Library\\PackageCache\\com.unity.services.lobby@1.1.1"
+  assetPath: Packages/com.unity.services.lobby
+  name: com.unity.services.lobby
+  displayName: Lobby
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: assets
+  description: Enable players to find, create, and join lobbies with Lobby. Add Lobby
+    to your multiplayer game to empower players to create the gaming experiences
+    they want. Features include Quick Join, Public Lobby, and Private Match to allow
+    flexibility in how players want to game with each other.
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 1.0.0-pre.4
+    - 1.0.0-pre.6
+    - 1.0.0
+    - 1.0.1
+    - 1.0.3
+    - 1.1.0-pre.1
+    - 1.1.0-pre.2
+    - 1.1.0-pre.3
+    - 1.1.0-pre.4
+    - 1.1.0-pre.5
+    - 1.1.0
+    - 1.1.1
+    compatible:
+    - 1.0.0-pre.4
+    - 1.0.0-pre.6
+    - 1.0.0
+    - 1.0.1
+    - 1.0.3
+    - 1.1.0-pre.1
+    - 1.1.0-pre.2
+    - 1.1.0-pre.3
+    - 1.1.0-pre.4
+    - 1.1.0-pre.5
+    - 1.1.0
+    - 1.1.1
+    verified: 
+  dependencies:
+  - name: com.unity.services.core
+    version: 1.8.2
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequestassetbundle
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequestaudio
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequesttexture
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequestwww
+    version: 1.0.0
+  - name: com.unity.nuget.newtonsoft-json
+    version: 3.0.2
+  - name: com.unity.services.authentication
+    version: 2.1.1
+  - name: com.unity.services.wire
+    version: 1.1.8
+  resolvedDependencies:
+  - name: com.unity.services.core
+    version: 1.8.2
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.nuget.newtonsoft-json
+    version: 3.1.0
+  - name: com.unity.modules.androidjni
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequestassetbundle
+    version: 1.0.0
+  - name: com.unity.modules.assetbundle
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequestaudio
+    version: 1.0.0
+  - name: com.unity.modules.audio
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequesttexture
+    version: 1.0.0
+  - name: com.unity.modules.imageconversion
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequestwww
+    version: 1.0.0
+  - name: com.unity.services.authentication
+    version: 2.4.0
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.services.wire
+    version: 1.1.8
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 638355920650000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.services.lobby@1.1/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git
+    revision: a185bf462dea818c9ee4fe311e33a4cf3bbc2700
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 1.0.0-pre.4
 - packageId: com.unity.test-framework@1.1.29
   testable: 0
   isDirectDependency: 1
@@ -478,7 +678,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Unity Test Framework
-  type: 
+  type: asset
   description: Test framework for running Edit mode and Play mode tests in Unity.
   status: 4
   errors: []
@@ -517,15 +717,43 @@ m_ResolvedPackages:
     - 1.1.29
     - 1.1.30
     - 1.1.31
+    - 1.1.33
+    - 1.3.0
+    - 1.3.1
+    - 1.3.2
+    - 1.3.3
+    - 1.3.4
+    - 1.3.5
+    - 1.3.7
+    - 1.3.8
+    - 1.3.9
+    - 1.4.0
+    - 1.4.1
+    - 2.0.1-exp.1
+    - 2.0.1-exp.2
     - 2.0.1-pre.12
     - 2.0.1-pre.18
     compatible:
     - 1.1.29
     - 1.1.30
     - 1.1.31
+    - 1.1.33
+    - 1.3.0
+    - 1.3.1
+    - 1.3.2
+    - 1.3.3
+    - 1.3.4
+    - 1.3.5
+    - 1.3.7
+    - 1.3.8
+    - 1.3.9
+    - 1.4.0
+    - 1.4.1
+    - 2.0.1-exp.1
+    - 2.0.1-exp.2
     - 2.0.1-pre.12
     - 2.0.1-pre.18
-    verified: 1.1.31
+    verified: 1.1.33
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
@@ -550,7 +778,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637647922650000000
   documentationUrl: 
@@ -577,7 +805,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Text Rendering
-  type: 
+  type: asset
   description: 'TextMeshPro is the ultimate text solution for Unity. It''s the perfect
     replacement for Unity''s UI Text and the legacy Text Mesh.
 
@@ -664,6 +892,7 @@ m_ResolvedPackages:
     - 2.1.6
     - 2.2.0-preview.1
     - 2.2.0-preview.2
+    - 2.2.0-preview.3
     - 3.0.0-preview.1
     - 3.0.0-preview.3
     - 3.0.0-preview.4
@@ -683,11 +912,20 @@ m_ResolvedPackages:
     - 3.0.6
     - 3.2.0-pre.1
     - 3.2.0-pre.2
+    - 3.2.0-pre.3
+    - 3.2.0-pre.4
+    - 3.2.0-pre.5
+    - 3.2.0-pre.6
     - 4.0.0-pre.1
+    - 4.0.0-pre.2
     compatible:
     - 3.0.6
     - 3.2.0-pre.1
     - 3.2.0-pre.2
+    - 3.2.0-pre.3
+    - 3.2.0-pre.4
+    - 3.2.0-pre.5
+    - 3.2.0-pre.6
     verified: 3.0.6
   dependencies:
   - name: com.unity.ugui
@@ -712,7 +950,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637547111200000000
   documentationUrl: 
@@ -739,7 +977,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: Use Unity Timeline to create cinematic content, game-play sequences,
     audio sequences, and complex particle effects.
   status: 4
@@ -814,14 +1052,44 @@ m_ResolvedPackages:
     - 1.6.2
     - 1.6.3
     - 1.6.4
+    - 1.6.5
     - 1.7.0-pre.1
     - 1.7.0-pre.2
+    - 1.7.0
+    - 1.7.1
+    - 1.7.2
+    - 1.7.3
+    - 1.7.4
+    - 1.7.5
+    - 1.7.6
+    - 1.8.0
+    - 1.8.1
+    - 1.8.2
+    - 1.8.3
+    - 1.8.4
+    - 1.8.5
+    - 1.8.6
     compatible:
     - 1.6.3
     - 1.6.4
+    - 1.6.5
     - 1.7.0-pre.1
     - 1.7.0-pre.2
-    verified: 1.6.4
+    - 1.7.0
+    - 1.7.1
+    - 1.7.2
+    - 1.7.3
+    - 1.7.4
+    - 1.7.5
+    - 1.7.6
+    - 1.8.0
+    - 1.8.1
+    - 1.8.2
+    - 1.8.3
+    - 1.8.4
+    - 1.8.5
+    - 1.8.6
+    verified: 1.6.5
   dependencies:
   - name: com.unity.modules.director
     version: 1.0.0
@@ -853,7 +1121,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637703491050000000
   documentationUrl: 
@@ -890,6 +1158,8 @@ m_ResolvedPackages:
   versions:
     all:
     - 1.0.0
+    - 3.0.0-exp.1
+    - 3.0.0-exp.3
     compatible:
     - 1.0.0
     verified: 1.0.0
@@ -942,7 +1212,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: tool
   description: 'Visual scripting is a workflow that uses visual, node-based graphs
     to design behaviors rather than write lines of C# script.
 
@@ -973,11 +1243,16 @@ m_ResolvedPackages:
     - 1.7.5
     - 1.7.6
     - 1.7.7
+    - 1.7.8
     - 1.8.0-pre.1
+    - 1.8.0
+    - 1.9.0
+    - 1.9.1
     compatible:
     - 1.7.6
     - 1.7.7
-    verified: 1.7.7
+    - 1.7.8
+    verified: 1.7.8
   dependencies:
   - name: com.unity.ugui
     version: 1.0.0
@@ -2767,7 +3042,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Libraries
-  type: 
+  type: asset
   description: Custom version of the nunit package build to work with Unity. Used
     by the Unity Test Framework.
   status: 4
@@ -2781,9 +3056,15 @@ m_ResolvedPackages:
     - 1.0.5
     - 1.0.6
     - 2.0.2
+    - 2.0.3
+    - 2.0.4
+    - 2.0.5
     compatible:
     - 1.0.6
     - 2.0.2
+    - 2.0.3
+    - 2.0.4
+    - 2.0.5
     verified: 1.0.6
   dependencies: []
   resolvedDependencies: []
@@ -2798,7 +3079,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637429759280000000
   documentationUrl: 
@@ -2810,6 +3091,208 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.0.6
+    nextVersion: 
+- packageId: com.unity.services.core@1.8.2
+  testable: 0
+  isDirectDependency: 0
+  version: 1.8.2
+  source: 1
+  resolvedPath: "D:\\Programov\xE1n\xED\\NEW PROJECTS ON NAS\\Unity\\NEWHORRORGAME\\HorrorGame\\Library\\PackageCache\\com.unity.services.core@1.8.2"
+  assetPath: Packages/com.unity.services.core
+  name: com.unity.services.core
+  displayName: Services Core
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: 'This package defines common components used by multiple Game Service
+    packages.
+
+    These are standardized and aim to unify the overall experience
+    of working with Game Services SDK.'
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 1.0.1
+    - 1.1.0-pre.7
+    - 1.1.0-pre.8
+    - 1.1.0-pre.9
+    - 1.1.0-pre.10
+    - 1.1.0-pre.11
+    - 1.1.0-pre.41
+    - 1.1.0-pre.69
+    - 1.2.0
+    - 1.3.1
+    - 1.3.2
+    - 1.4.0
+    - 1.4.1
+    - 1.4.2
+    - 1.4.3
+    - 1.5.2
+    - 1.6.0
+    - 1.7.0
+    - 1.7.1
+    - 1.8.1
+    - 1.8.2
+    - 1.9.0
+    - 1.10.1
+    - 1.11.0
+    - 1.12.0
+    - 1.12.1
+    compatible:
+    - 1.0.1
+    - 1.1.0-pre.7
+    - 1.1.0-pre.8
+    - 1.1.0-pre.9
+    - 1.1.0-pre.10
+    - 1.1.0-pre.11
+    - 1.1.0-pre.41
+    - 1.1.0-pre.69
+    - 1.2.0
+    - 1.3.1
+    - 1.3.2
+    - 1.4.0
+    - 1.4.1
+    - 1.4.2
+    - 1.4.3
+    - 1.5.2
+    - 1.6.0
+    - 1.7.0
+    - 1.7.1
+    - 1.8.1
+    - 1.8.2
+    - 1.9.0
+    - 1.10.1
+    - 1.11.0
+    - 1.12.0
+    - 1.12.1
+    verified: 1.0.1
+  dependencies:
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.nuget.newtonsoft-json
+    version: 3.0.2
+  - name: com.unity.modules.androidjni
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.nuget.newtonsoft-json
+    version: 3.1.0
+  - name: com.unity.modules.androidjni
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 638162786460000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.services.core@1.8/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git
+    revision: 76259ae8be68ef4e25a5783d8bcf476d7ed09d17
+    path: 
+  unityLifecycle:
+    version: 1.0.1
+    nextVersion: 1.1.0-pre.8
+- packageId: com.unity.services.wire@1.1.8
+  testable: 0
+  isDirectDependency: 0
+  version: 1.1.8
+  source: 1
+  resolvedPath: "D:\\Programov\xE1n\xED\\NEW PROJECTS ON NAS\\Unity\\NEWHORRORGAME\\HorrorGame\\Library\\PackageCache\\com.unity.services.wire@1.1.8"
+  assetPath: Packages/com.unity.services.wire
+  name: com.unity.services.wire
+  displayName: Wire
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: library
+  description: Wire provides notifications in real-time for Unity Gaming Services
+    subscribing to a particular service and listening for messages from that subscription
+    through a websocket connection.
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 1.0.0-preview.20
+    - 1.0.0
+    - 1.1.0
+    - 1.1.1
+    - 1.1.4
+    - 1.1.5
+    - 1.1.6
+    - 1.1.8
+    - 1.2.0
+    - 1.2.2
+    compatible:
+    - 1.0.0-preview.20
+    - 1.0.0
+    - 1.1.0
+    - 1.1.1
+    - 1.1.4
+    - 1.1.5
+    - 1.1.6
+    - 1.1.8
+    - 1.2.0
+    - 1.2.2
+    verified: 
+  dependencies:
+  - name: com.unity.services.core
+    version: 1.8.1
+  - name: com.unity.nuget.newtonsoft-json
+    version: 3.1.0
+  - name: com.unity.services.authentication
+    version: 2.4.0
+  resolvedDependencies:
+  - name: com.unity.services.core
+    version: 1.8.2
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.nuget.newtonsoft-json
+    version: 3.1.0
+  - name: com.unity.modules.androidjni
+    version: 1.0.0
+  - name: com.unity.services.authentication
+    version: 2.4.0
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638215563660000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git
+    revision: 301e737235c3de157e2056564839fc63dadce901
+    path: 
+  unityLifecycle:
+    version: 
     nextVersion: 
 - packageId: com.unity.editorcoroutines@1.0.0
   testable: 0
@@ -2825,7 +3308,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: 'The editor coroutines package allows developers to start constructs
     similar to Unity''s monobehaviour based coroutines within the editor using abitrary
     objects. '
@@ -2856,7 +3339,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637232611380000000
   documentationUrl: 
@@ -2883,7 +3366,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: "The Profile Analyzer tool supports the standard Unity Profiler. You
     can use it to analyze multiple frames and multiple data sets of the CPU data
     in the Profiler.\n\nMain features: \n\u25AA Multi-frame analysis of a single
@@ -2906,8 +3389,10 @@ m_ResolvedPackages:
     - 1.1.0-pre.2
     - 1.1.0
     - 1.1.1
+    - 1.2.2
     compatible:
     - 1.1.1
+    - 1.2.2
     verified: 1.1.1
   dependencies: []
   resolvedDependencies: []
@@ -2919,7 +3404,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637705021060000000
   documentationUrl: 
@@ -2946,7 +3431,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: Use this package to export code coverage data and reports from your
     automated tests. Additionally, the Code Coverage package offers a Coverage Recording
     feature which allows capturing coverage data on demand, for manual testing or
@@ -2978,6 +3463,13 @@ m_ResolvedPackages:
     - 1.2.0-exp.3
     - 1.2.0-exp.4
     - 1.2.0-exp.5
+    - 1.2.0-exp.6
+    - 1.2.0-exp.7
+    - 1.2.0
+    - 1.2.1
+    - 1.2.2
+    - 1.2.3
+    - 1.2.4
     compatible:
     - 1.0.1
     - 1.1.0
@@ -2987,6 +3479,13 @@ m_ResolvedPackages:
     - 1.2.0-exp.3
     - 1.2.0-exp.4
     - 1.2.0-exp.5
+    - 1.2.0-exp.6
+    - 1.2.0-exp.7
+    - 1.2.0
+    - 1.2.1
+    - 1.2.2
+    - 1.2.3
+    - 1.2.4
     verified: 1.0.1
   dependencies:
   - name: com.unity.test-framework
@@ -3016,7 +3515,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637594767130000000
   documentationUrl: 
@@ -3029,12 +3528,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.1
     nextVersion: 
-- packageId: com.unity.nuget.newtonsoft-json@2.0.0
+- packageId: com.unity.nuget.newtonsoft-json@3.1.0
   testable: 0
   isDirectDependency: 0
-  version: 2.0.0
+  version: 3.1.0
   source: 1
-  resolvedPath: "D:\\Programov\xE1n\xED\\NEW PROJECTS ON NAS\\Unity\\NEWHORRORGAME\\HorrorGame\\Library\\PackageCache\\com.unity.nuget.newtonsoft-json@2.0.0"
+  resolvedPath: "D:\\Programov\xE1n\xED\\NEW PROJECTS ON NAS\\Unity\\NEWHORRORGAME\\HorrorGame\\Library\\PackageCache\\com.unity.nuget.newtonsoft-json@3.1.0"
   assetPath: Packages/com.unity.nuget.newtonsoft-json
   name: com.unity.nuget.newtonsoft-json
   displayName: Newtonsoft Json
@@ -3043,9 +3542,9 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: library
   description: 'Newtonsoft Json for use in Unity projects and Unity packages. Currently
-    synced to version 12.0.2.
+    synced to version 13.0.2.
 
 
     This package is used for advanced json serialization
@@ -3069,10 +3568,20 @@ m_ResolvedPackages:
     - 2.0.0
     - 2.0.1-preview.1
     - 2.0.2
+    - 3.0.1
+    - 3.0.2
+    - 3.1.0
+    - 3.2.0
+    - 3.2.1
     compatible:
     - 2.0.0
     - 2.0.1-preview.1
     - 2.0.2
+    - 3.0.1
+    - 3.0.2
+    - 3.1.0
+    - 3.2.0
+    - 3.2.1
     verified: 2.0.2
   dependencies: []
   resolvedDependencies: []
@@ -3086,64 +3595,102 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637237898320000000
+  datePublishedTicks: 638143166550000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.nuget.newtonsoft-json.git
-    revision: d2fd6ed876261bbd82f59199ad711e7667bf633a
+    revision: 686b43c15210b5f3e0145e51147079a8d2551bd9
     path: 
   unityLifecycle:
     version: 2.0.0
     nextVersion: 
-- packageId: com.unity.services.core@1.0.1
+- packageId: com.unity.services.authentication@2.4.0
   testable: 0
   isDirectDependency: 0
-  version: 1.0.1
+  version: 2.4.0
   source: 1
-  resolvedPath: "D:\\Programov\xE1n\xED\\NEW PROJECTS ON NAS\\Unity\\NEWHORRORGAME\\HorrorGame\\Library\\PackageCache\\com.unity.services.core@1.0.1"
-  assetPath: Packages/com.unity.services.core
-  name: com.unity.services.core
-  displayName: Services Core
+  resolvedPath: "D:\\Programov\xE1n\xED\\NEW PROJECTS ON NAS\\Unity\\NEWHORRORGAME\\HorrorGame\\Library\\PackageCache\\com.unity.services.authentication@2.4.0"
+  assetPath: Packages/com.unity.services.authentication
+  name: com.unity.services.authentication
+  displayName: Authentication
   author:
     name: 
     email: 
     url: 
   category: 
-  type: 
-  description: 'This package defines common components used by multiple Game Service
-    packages.
+  type: library
+  description: 'Client SDK offering player identity management for Unity Gaming Services.
 
-    These are standardized and aim to unify the overall experience
-    of working with Game Services packages.'
+
+    Identity
+    providers can be configured from the editor or the Unity Dashboard.
+
+
+    Player
+    management is available in the Unity Dashboard.'
   status: 4
   errors: []
   versions:
     all:
-    - 1.0.1
-    - 1.1.0-pre.7
-    - 1.1.0-pre.8
-    - 1.1.0-pre.9
-    - 1.1.0-pre.10
-    - 1.1.0-pre.11
-    - 1.1.0-pre.41
-    - 1.1.0-pre.69
+    - 1.0.0-pre.4
+    - 1.0.0-pre.6
+    - 1.0.0-pre.37
+    - 2.0.0
+    - 2.1.1
+    - 2.2.0
+    - 2.3.1
+    - 2.4.0
+    - 2.5.0-pre.3
+    - 2.5.0
+    - 2.6.1
+    - 2.7.1
+    - 2.7.2
+    - 3.0.0
+    - 3.1.0
+    - 3.2.0
     compatible:
-    - 1.0.1
-    - 1.1.0-pre.7
-    - 1.1.0-pre.8
-    - 1.1.0-pre.9
-    - 1.1.0-pre.10
-    - 1.1.0-pre.11
-    - 1.1.0-pre.41
-    - 1.1.0-pre.69
-    verified: 1.0.1
+    - 1.0.0-pre.4
+    - 1.0.0-pre.6
+    - 1.0.0-pre.37
+    - 2.0.0
+    - 2.1.1
+    - 2.2.0
+    - 2.3.1
+    - 2.4.0
+    - 2.5.0-pre.3
+    - 2.5.0
+    - 2.6.1
+    - 2.7.1
+    - 2.7.2
+    - 3.0.0
+    - 3.1.0
+    - 3.2.0
+    verified: 
   dependencies:
+  - name: com.unity.nuget.newtonsoft-json
+    version: 3.0.2
+  - name: com.unity.services.core
+    version: 1.7.0
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
+  - name: com.unity.ugui
+    version: 1.0.0
   resolvedDependencies:
+  - name: com.unity.nuget.newtonsoft-json
+    version: 3.1.0
+  - name: com.unity.services.core
+    version: 1.8.2
   - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.modules.androidjni
+    version: 1.0.0
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
     version: 1.0.0
   keywords: []
   registry:
@@ -3155,17 +3702,17 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637604883250000000
+  datePublishedTicks: 638059514280000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git
-    revision: 4cd880d4fd5c60597629249bf4f324e4c8d7aa2e
+    revision: d3c86b642f156fd98e7696fff1df8ab0fd12c039
     path: 
   unityLifecycle:
-    version: 1.0.1
-    nextVersion: 1.1.0-pre.8
+    version: 
+    nextVersion: 1.0.0-pre.4
 - packageId: com.unity.settings-manager@1.0.3
   testable: 0
   isDirectDependency: 0
@@ -3180,7 +3727,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: A framework for making any serializable field a setting, complete
     with a pre-built settings interface.
   status: 4

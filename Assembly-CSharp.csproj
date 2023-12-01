@@ -82,6 +82,7 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\SinglePlayer\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\Lobby.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
@@ -365,7 +366,10 @@
      <HintPath>D:/Programování/NEW PROJECTS ON NAS/Unity/NEWHORRORGAME/HorrorGame/Library/PackageCache/com.unity.testtools.codecoverage@1.0.1/lib/ReportGenerator/ReportGeneratorMerged.dll</HintPath>
      </Reference>
      <Reference Include="Newtonsoft.Json">
-     <HintPath>D:/Programování/NEW PROJECTS ON NAS/Unity/NEWHORRORGAME/HorrorGame/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+     <HintPath>D:/Programování/NEW PROJECTS ON NAS/Unity/NEWHORRORGAME/HorrorGame/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.1.0/Runtime/Newtonsoft.Json.dll</HintPath>
+     </Reference>
+     <Reference Include="websocket-sharp">
+     <HintPath>D:/Programování/NEW PROJECTS ON NAS/Unity/NEWHORRORGAME/HorrorGame/Library/PackageCache/com.unity.services.wire@1.1.8/Plugins/websocket-sharp.dll</HintPath>
      </Reference>
      <Reference Include="netstandard">
      <HintPath>D:/Unity 2021.2.7f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll</HintPath>
@@ -801,6 +805,21 @@
      </Reference>
      <Reference Include="Unity.EditorCoroutines.Editor">
      <HintPath>D:/Programování/NEW PROJECTS ON NAS/Unity/NEWHORRORGAME/HorrorGame/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Services.Authentication">
+     <HintPath>D:/Programování/NEW PROJECTS ON NAS/Unity/NEWHORRORGAME/HorrorGame/Library/ScriptAssemblies/Unity.Services.Authentication.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Services.Lobbies">
+     <HintPath>D:/Programování/NEW PROJECTS ON NAS/Unity/NEWHORRORGAME/HorrorGame/Library/ScriptAssemblies/Unity.Services.Lobbies.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Services.Core">
+     <HintPath>D:/Programování/NEW PROJECTS ON NAS/Unity/NEWHORRORGAME/HorrorGame/Library/ScriptAssemblies/Unity.Services.Core.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Services.Core.Analytics">
+     <HintPath>D:/Programování/NEW PROJECTS ON NAS/Unity/NEWHORRORGAME/HorrorGame/Library/ScriptAssemblies/Unity.Services.Core.Analytics.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Services.Core.Environments">
+     <HintPath>D:/Programování/NEW PROJECTS ON NAS/Unity/NEWHORRORGAME/HorrorGame/Library/ScriptAssemblies/Unity.Services.Core.Environments.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>
