@@ -66,6 +66,7 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
      <Compile Include="Assets\SinglePlayer\CameraScript.cs" />
      <Compile Include="Assets\SinglePlayer\FlashLight.cs" />
+     <Compile Include="Assets\Scripts\LobbyScript.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
@@ -82,7 +83,6 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\SinglePlayer\PlayerMovement.cs" />
-     <Compile Include="Assets\Scripts\Lobby.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
@@ -359,6 +359,9 @@
      <Reference Include="UnityEditor.UnityConnectModule">
      <HintPath>D:/Unity 2021.2.7f1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
      </Reference>
+     <Reference Include="websocket-sharp">
+     <HintPath>D:/Programování/NEW PROJECTS ON NAS/Unity/NEWHORRORGAME/HorrorGame/Library/PackageCache/com.unity.services.wire@1.1.8/Plugins/websocket-sharp.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
      <HintPath>D:/Programování/NEW PROJECTS ON NAS/Unity/NEWHORRORGAME/HorrorGame/Library/PackageCache/com.unity.visualscripting@1.7.6/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
      </Reference>
@@ -367,9 +370,6 @@
      </Reference>
      <Reference Include="Newtonsoft.Json">
      <HintPath>D:/Programování/NEW PROJECTS ON NAS/Unity/NEWHORRORGAME/HorrorGame/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.1.0/Runtime/Newtonsoft.Json.dll</HintPath>
-     </Reference>
-     <Reference Include="websocket-sharp">
-     <HintPath>D:/Programování/NEW PROJECTS ON NAS/Unity/NEWHORRORGAME/HorrorGame/Library/PackageCache/com.unity.services.wire@1.1.8/Plugins/websocket-sharp.dll</HintPath>
      </Reference>
      <Reference Include="netstandard">
      <HintPath>D:/Unity 2021.2.7f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll</HintPath>
@@ -743,14 +743,8 @@
      <Reference Include="Unity.VSCode.Editor">
      <HintPath>D:/Programování/NEW PROJECTS ON NAS/Unity/NEWHORRORGAME/HorrorGame/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.VisualScripting.Shared.Editor">
-     <HintPath>D:/Programování/NEW PROJECTS ON NAS/Unity/NEWHORRORGAME/HorrorGame/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll</HintPath>
-     </Reference>
      <Reference Include="Unity.TextMeshPro.Editor">
      <HintPath>D:/Programování/NEW PROJECTS ON NAS/Unity/NEWHORRORGAME/HorrorGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualStudio.Editor">
-     <HintPath>D:/Programování/NEW PROJECTS ON NAS/Unity/NEWHORRORGAME/HorrorGame/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
      <HintPath>D:/Programování/NEW PROJECTS ON NAS/Unity/NEWHORRORGAME/HorrorGame/Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
@@ -758,8 +752,8 @@
      <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
      <HintPath>D:/Programování/NEW PROJECTS ON NAS/Unity/NEWHORRORGAME/HorrorGame/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.Timeline.Editor">
-     <HintPath>D:/Programování/NEW PROJECTS ON NAS/Unity/NEWHORRORGAME/HorrorGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+     <Reference Include="Unity.VisualStudio.Editor">
+     <HintPath>D:/Programování/NEW PROJECTS ON NAS/Unity/NEWHORRORGAME/HorrorGame/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Timeline">
      <HintPath>D:/Programování/NEW PROJECTS ON NAS/Unity/NEWHORRORGAME/HorrorGame/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
@@ -791,14 +785,11 @@
      <Reference Include="Unity.Rider.Editor">
      <HintPath>D:/Programování/NEW PROJECTS ON NAS/Unity/NEWHORRORGAME/HorrorGame/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.TestTools.CodeCoverage.Editor">
-     <HintPath>D:/Programování/NEW PROJECTS ON NAS/Unity/NEWHORRORGAME/HorrorGame/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
-     </Reference>
      <Reference Include="UnityEngine.UI">
      <HintPath>D:/Programování/NEW PROJECTS ON NAS/Unity/NEWHORRORGAME/HorrorGame/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.VisualScripting.State">
-     <HintPath>D:/Programování/NEW PROJECTS ON NAS/Unity/NEWHORRORGAME/HorrorGame/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
+     <Reference Include="Unity.Services.Core">
+     <HintPath>D:/Programování/NEW PROJECTS ON NAS/Unity/NEWHORRORGAME/HorrorGame/Library/ScriptAssemblies/Unity.Services.Core.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Core">
      <HintPath>D:/Programování/NEW PROJECTS ON NAS/Unity/NEWHORRORGAME/HorrorGame/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll</HintPath>
@@ -809,17 +800,26 @@
      <Reference Include="Unity.Services.Authentication">
      <HintPath>D:/Programování/NEW PROJECTS ON NAS/Unity/NEWHORRORGAME/HorrorGame/Library/ScriptAssemblies/Unity.Services.Authentication.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.Services.Lobbies">
-     <HintPath>D:/Programování/NEW PROJECTS ON NAS/Unity/NEWHORRORGAME/HorrorGame/Library/ScriptAssemblies/Unity.Services.Lobbies.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Services.Core">
-     <HintPath>D:/Programování/NEW PROJECTS ON NAS/Unity/NEWHORRORGAME/HorrorGame/Library/ScriptAssemblies/Unity.Services.Core.dll</HintPath>
-     </Reference>
      <Reference Include="Unity.Services.Core.Analytics">
      <HintPath>D:/Programování/NEW PROJECTS ON NAS/Unity/NEWHORRORGAME/HorrorGame/Library/ScriptAssemblies/Unity.Services.Core.Analytics.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.VisualScripting.Shared.Editor">
+     <HintPath>D:/Programování/NEW PROJECTS ON NAS/Unity/NEWHORRORGAME/HorrorGame/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.Services.Core.Environments">
      <HintPath>D:/Programování/NEW PROJECTS ON NAS/Unity/NEWHORRORGAME/HorrorGame/Library/ScriptAssemblies/Unity.Services.Core.Environments.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Timeline.Editor">
+     <HintPath>D:/Programování/NEW PROJECTS ON NAS/Unity/NEWHORRORGAME/HorrorGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.TestTools.CodeCoverage.Editor">
+     <HintPath>D:/Programování/NEW PROJECTS ON NAS/Unity/NEWHORRORGAME/HorrorGame/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.State">
+     <HintPath>D:/Programování/NEW PROJECTS ON NAS/Unity/NEWHORRORGAME/HorrorGame/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Services.Lobbies">
+     <HintPath>D:/Programování/NEW PROJECTS ON NAS/Unity/NEWHORRORGAME/HorrorGame/Library/ScriptAssemblies/Unity.Services.Lobbies.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>
