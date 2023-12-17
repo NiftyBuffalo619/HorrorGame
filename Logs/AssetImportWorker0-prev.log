@@ -15,7 +15,7 @@ D:/Programování/NEW PROJECTS ON NAS/Unity/NEWHORRORGAME/HorrorGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-9537
+56749
 Successfully changed project path to: D:/Programování/NEW PROJECTS ON NAS/Unity/NEWHORRORGAME/HorrorGame
 D:/Programování/NEW PROJECTS ON NAS/Unity/NEWHORRORGAME/HorrorGame
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ D:/Programování/NEW PROJECTS ON NAS/Unity/NEWHORRORGAME/HorrorGame
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 109.39 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 107.08 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.7f1 (6bd9e232123f)
 [Subsystems] Discovering subsystems at path D:/Unity 2021.2.7f1/Editor/Data/Resources/UnitySubsystems
@@ -63,75 +63,75 @@ Initialize mono
 Mono path[0] = 'D:/Unity 2021.2.7f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity 2021.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Unity 2021.2.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56404
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56188
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity 2021.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002484 seconds.
+Registered in 0.002369 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 108.03 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 109.99 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.662 seconds
+- Completed reload, in  0.670 seconds
 Domain Reload Profiling:
-	ReloadAssembly (662ms)
-		BeginReloadAssembly (76ms)
+	ReloadAssembly (670ms)
+		BeginReloadAssembly (72ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (513ms)
-			LoadAssemblies (75ms)
+		EndReloadAssembly (526ms)
+			LoadAssemblies (71ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (109ms)
+			SetupTypeCache (105ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (322ms)
+			SetupLoadedEditorAssemblies (339ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (15ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (108ms)
+				RefreshPlugins (110ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (149ms)
-				ProcessInitializeOnLoadMethodAttributes (49ms)
+				ProcessInitializeOnLoadAttributes (161ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004716 seconds.
+Registered in 0.005104 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Programování\NEW PROJECTS ON NAS\Unity\NEWHORRORGAME\HorrorGame\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Programování\NEW PROJECTS ON NAS\Unity\NEWHORRORGAME\HorrorGame\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.087 seconds
+- Completed reload, in  1.140 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1088ms)
-		BeginReloadAssembly (107ms)
+	ReloadAssembly (1141ms)
+		BeginReloadAssembly (126ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (881ms)
-			LoadAssemblies (79ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (868ms)
+			LoadAssemblies (91ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (300ms)
+			SetupTypeCache (286ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (399ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (411ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (1ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (95ms)
-				ProcessInitializeOnLoadAttributes (262ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (274ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -139,13 +139,13 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3661 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 27 unused Assets / (88.8 KB). Loaded Objects now: 4143.
-Memory consumption went from 145.0 MB to 144.9 MB.
-Total: 3.300100 ms (FindLiveObjects: 0.304400 ms CreateObjectMapping: 0.255600 ms MarkObjects: 2.624800 ms  DeleteObjects: 0.114300 ms)
+Memory consumption went from 145.1 MB to 145.0 MB.
+Total: 3.373600 ms (FindLiveObjects: 0.321500 ms CreateObjectMapping: 0.222900 ms MarkObjects: 2.701600 ms  DeleteObjects: 0.126700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -159,99 +159,37 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 3227.076068 seconds.
-  path: Assets/Models/stenafinal.blend
-  artifactKey: Guid(98e600c3eb16ac340b8dbf127b165029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/stenafinal.blend using Guid(98e600c3eb16ac340b8dbf127b165029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc02fe8cdce37175650401ef8f14712d') in 0.434683 seconds 
+  Time since last request: 32069.073949 seconds.
+  path: Assets/Models/ww.prefab
+  artifactKey: Guid(2e11aa9daa73f9e42accf55e8c4f8914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/ww.prefab using Guid(2e11aa9daa73f9e42accf55e8c4f8914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c56669f96bd62bb1e77e26b19e57581') in 0.062736 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 26.422227 seconds.
-  path: Assets/Models/stenalayout.png
-  artifactKey: Guid(3bfbd28c736bd4c48878e1af0055f40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/stenalayout.png using Guid(3bfbd28c736bd4c48878e1af0055f40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '360eae34d34d0e7b9b904a22fff9c47a') in 0.024746 seconds 
+  Time since last request: 21.628059 seconds.
+  path: Assets/Models/Materials
+  artifactKey: Guid(4b4d946cc43ca654ab54a6e8454ebd77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials using Guid(4b4d946cc43ca654ab54a6e8454ebd77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43ce707d676592ace8c942b093d0e8f4') in 0.039638 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.033554 seconds.
-  path: Assets/Models/stena.png
-  artifactKey: Guid(b9d93a7ec7c3d25419e4e3da535fb153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/stena.png using Guid(b9d93a7ec7c3d25419e4e3da535fb153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed25abae72bef1493e5fd05c34e31be8') in 0.007787 seconds 
+  Time since last request: 0.000018 seconds.
+  path: Assets/Models/Materials/stenalayout.mat
+  artifactKey: Guid(8bd9561b2cb864548be4a6ae26996d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials/stenalayout.mat using Guid(8bd9561b2cb864548be4a6ae26996d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd49400ee18bb12b50ef3582d4431d20') in 0.314060 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 307.183071 seconds.
-  path: Assets/Models/stena 1.png
-  artifactKey: Guid(36e0cc0b5f47ac14884ab54313495b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/stena 1.png using Guid(36e0cc0b5f47ac14884ab54313495b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d1d8d47988b52051c65a9dd7f0b6cb4') in 0.011629 seconds 
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/Materials/stena.mat
+  artifactKey: Guid(5e8336df4d88a354b8296755f389e3f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials/stena.mat using Guid(5e8336df4d88a354b8296755f389e3f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6793b61fbe6e11d11590fdbba51a6891') in 0.015334 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 397.906382 seconds.
-  path: Assets/Models/stena.png
-  artifactKey: Guid(b9d93a7ec7c3d25419e4e3da535fb153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/stena.png using Guid(b9d93a7ec7c3d25419e4e3da535fb153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73fc3e66c91c8fa1e91dd9ddb531b872') in 0.008587 seconds 
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/Materials/stena 1.mat
+  artifactKey: Guid(8430160489c658c4bafb55b6e17bda46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials/stena 1.mat using Guid(8430160489c658c4bafb55b6e17bda46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82c6f02e878e42b51bc638c79948a1e9') in 0.008264 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 75.177764 seconds.
-  path: Assets/Models/stena.png
-  artifactKey: Guid(b9d93a7ec7c3d25419e4e3da535fb153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/stena.png using Guid(b9d93a7ec7c3d25419e4e3da535fb153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f2bdaf125d5a0a4f435382a7d1ac7fb') in 0.007531 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004881 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Programování\NEW PROJECTS ON NAS\Unity\NEWHORRORGAME\HorrorGame\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Programování\NEW PROJECTS ON NAS\Unity\NEWHORRORGAME\HorrorGame\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.246 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1247ms)
-		BeginReloadAssembly (142ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (39ms)
-		EndReloadAssembly (1003ms)
-			LoadAssemblies (81ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (337ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (451ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (83ms)
-				ProcessInitializeOnLoadAttributes (313ms)
-				ProcessInitializeOnLoadMethodAttributes (37ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (20ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3636 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (56.0 KB). Loaded Objects now: 4259.
-Memory consumption went from 150.9 MB to 150.9 MB.
-Total: 3.645500 ms (FindLiveObjects: 0.362200 ms CreateObjectMapping: 0.457600 ms MarkObjects: 2.741800 ms  DeleteObjects: 0.082900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 207.074418 seconds.
-  path: Assets/Models/stena.png
-  artifactKey: Guid(b9d93a7ec7c3d25419e4e3da535fb153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/stena.png using Guid(b9d93a7ec7c3d25419e4e3da535fb153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9697dff5337767046d7bc14e9299ae5b') in 0.042445 seconds 
+  Time since last request: 4.610566 seconds.
+  path: Assets/Models/WallWindow/wallwindow.blend
+  artifactKey: Guid(3ff060ffb636ff64483dad2cbf8aeda6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/WallWindow/wallwindow.blend using Guid(3ff060ffb636ff64483dad2cbf8aeda6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eafebcfae5cbcecb423a21804ccd6738') in 0.094419 seconds 
