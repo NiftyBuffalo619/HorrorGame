@@ -15,7 +15,7 @@ D:/Programování/NEW PROJECTS ON NAS/Unity/NEWHORRORGAME/HorrorGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53490
+13081
 Successfully changed project path to: D:/Programování/NEW PROJECTS ON NAS/Unity/NEWHORRORGAME/HorrorGame
 D:/Programování/NEW PROJECTS ON NAS/Unity/NEWHORRORGAME/HorrorGame
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ D:/Programování/NEW PROJECTS ON NAS/Unity/NEWHORRORGAME/HorrorGame
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 105.60 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 108.42 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.7f1 (6bd9e232123f)
 [Subsystems] Discovering subsystems at path D:/Unity 2021.2.7f1/Editor/Data/Resources/UnitySubsystems
@@ -63,74 +63,74 @@ Initialize mono
 Mono path[0] = 'D:/Unity 2021.2.7f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity 2021.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Unity 2021.2.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56440
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56348
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity 2021.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002347 seconds.
+Registered in 0.002305 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 107.59 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 106.56 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.656 seconds
+- Completed reload, in  0.646 seconds
 Domain Reload Profiling:
-	ReloadAssembly (656ms)
-		BeginReloadAssembly (72ms)
+	ReloadAssembly (647ms)
+		BeginReloadAssembly (71ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (512ms)
-			LoadAssemblies (71ms)
+		EndReloadAssembly (505ms)
+			LoadAssemblies (70ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (108ms)
+			SetupTypeCache (105ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (323ms)
+			SetupLoadedEditorAssemblies (319ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
+				InitializePlatformSupportModulesInManaged (14ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (108ms)
+				RefreshPlugins (107ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (149ms)
-				ProcessInitializeOnLoadMethodAttributes (51ms)
+				ProcessInitializeOnLoadAttributes (148ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004983 seconds.
+Registered in 0.004786 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Programování\NEW PROJECTS ON NAS\Unity\NEWHORRORGAME\HorrorGame\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Programování\NEW PROJECTS ON NAS\Unity\NEWHORRORGAME\HorrorGame\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.053 seconds
+- Completed reload, in  1.063 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1054ms)
-		BeginReloadAssembly (117ms)
+	ReloadAssembly (1064ms)
+		BeginReloadAssembly (107ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (838ms)
-			LoadAssemblies (83ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (856ms)
+			LoadAssemblies (80ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (279ms)
+			SetupTypeCache (281ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (391ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (398ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (94ms)
-				ProcessInitializeOnLoadAttributes (254ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (261ms)
 				ProcessInitializeOnLoadMethodAttributes (27ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
@@ -139,13 +139,13 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3661 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 27 unused Assets / (88.8 KB). Loaded Objects now: 4143.
 Memory consumption went from 145.1 MB to 145.0 MB.
-Total: 3.028200 ms (FindLiveObjects: 0.288700 ms CreateObjectMapping: 0.204800 ms MarkObjects: 2.438100 ms  DeleteObjects: 0.095800 ms)
+Total: 3.481700 ms (FindLiveObjects: 0.286500 ms CreateObjectMapping: 0.200800 ms MarkObjects: 2.894600 ms  DeleteObjects: 0.098900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -159,81 +159,43 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 3365.168836 seconds.
-  path: Assets/Models/NeighborWall
-  artifactKey: Guid(d64b2fde0caefcc49a49ccf88182523e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/NeighborWall using Guid(d64b2fde0caefcc49a49ccf88182523e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97eade2b8f92844287cb1d08ef4bb15f') in 0.005947 seconds 
+  Time since last request: 18269.914133 seconds.
+  path: Assets/Models/Interier
+  artifactKey: Guid(eea466619058e9f4783b092fe5a531c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Interier using Guid(eea466619058e9f4783b092fe5a531c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f57e6da65395c9d1bff8e98a7000ea4') in 0.005841 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.600931 seconds.
-  path: Assets/Models/NeighborWall/druhastena.fbx
-  artifactKey: Guid(f7e8bc5785e491649afce47ad3f44ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/NeighborWall/druhastena.fbx using Guid(f7e8bc5785e491649afce47ad3f44ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4619ffee122299439254bfca68155f3b') in 0.201289 seconds 
+  Time since last request: 4.499804 seconds.
+  path: Assets/Models/Interier/Enterance
+  artifactKey: Guid(ee502bc8c7c94ad4cb9c3668d131b9ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Interier/Enterance using Guid(ee502bc8c7c94ad4cb9c3668d131b9ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbee0eb2eb64eec80a2b5274b4158df0') in 0.001613 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.369643 seconds.
-  path: Assets/Models/NeighborWall/druhastenamap.png
-  artifactKey: Guid(9fead7219cc230b45908c6ec752ec932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/NeighborWall/druhastenamap.png using Guid(9fead7219cc230b45908c6ec752ec932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '247dadc8844b9c2997194c459773e9be') in 0.024268 seconds 
+  Time since last request: 5.157169 seconds.
+  path: Assets/Models/Interier/Wall
+  artifactKey: Guid(527e9b1742d315245b0dd98a1c507691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Interier/Wall using Guid(527e9b1742d315245b0dd98a1c507691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2a214d3047baed6dfbb915ce7516241') in 0.001718 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 63.172033 seconds.
-  path: Assets/Models/NeighborWall/druhastena.png
-  artifactKey: Guid(28a0e07ffb454144da647d2d98d8039d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/NeighborWall/druhastena.png using Guid(28a0e07ffb454144da647d2d98d8039d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee0d8fa07299d1f415d58db88fbb5385') in 0.007776 seconds 
+  Time since last request: 6.991771 seconds.
+  path: Assets/Models/Interier/WallWithDoor
+  artifactKey: Guid(ee502bc8c7c94ad4cb9c3668d131b9ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Interier/WallWithDoor using Guid(ee502bc8c7c94ad4cb9c3668d131b9ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e57035a994ad8954d3599369ce109e2f') in 0.001496 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004897 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Programování\NEW PROJECTS ON NAS\Unity\NEWHORRORGAME\HorrorGame\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Programování\NEW PROJECTS ON NAS\Unity\NEWHORRORGAME\HorrorGame\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.267 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1268ms)
-		BeginReloadAssembly (155ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (43ms)
-		EndReloadAssembly (995ms)
-			LoadAssemblies (92ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (322ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (453ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (92ms)
-				ProcessInitializeOnLoadAttributes (309ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3636 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (56.0 KB). Loaded Objects now: 4185.
-Memory consumption went from 149.6 MB to 149.6 MB.
-Total: 3.407700 ms (FindLiveObjects: 0.288700 ms CreateObjectMapping: 0.251300 ms MarkObjects: 2.693200 ms  DeleteObjects: 0.173500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 38.650520 seconds.
+  path: Assets/Models/Interier/WallWithDoor/WallWithDoor.fbx
+  artifactKey: Guid(11ee73853d0d93c43945d4e6194100fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Interier/WallWithDoor/WallWithDoor.fbx using Guid(11ee73853d0d93c43945d4e6194100fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d01e0a1748835ef7fb733006d2faa2f') in 0.171601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 58.500310 seconds.
+  path: Assets/Models/Interier/WallWithDoor/WallWithDoor.fbx
+  artifactKey: Guid(11ee73853d0d93c43945d4e6194100fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Interier/WallWithDoor/WallWithDoor.fbx using Guid(11ee73853d0d93c43945d4e6194100fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e7c1e1056dea3aede0efc22665c548e') in 0.055320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 357.088314 seconds.
+  path: Assets/Models/Interier/Wall/Stena.fbx
+  artifactKey: Guid(0ebbe7dcff4eeaf47aff6823d3bff066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Interier/Wall/Stena.fbx using Guid(0ebbe7dcff4eeaf47aff6823d3bff066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c8dba67164cee4a7414afcd2a88822a') in 0.043737 seconds 
