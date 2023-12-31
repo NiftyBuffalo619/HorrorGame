@@ -15,7 +15,7 @@ D:/Programování/NEW PROJECTS ON NAS/Unity/NEWHORRORGAME/HorrorGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-13081
+29920
 Successfully changed project path to: D:/Programování/NEW PROJECTS ON NAS/Unity/NEWHORRORGAME/HorrorGame
 D:/Programování/NEW PROJECTS ON NAS/Unity/NEWHORRORGAME/HorrorGame
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ D:/Programování/NEW PROJECTS ON NAS/Unity/NEWHORRORGAME/HorrorGame
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 108.42 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 108.23 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.7f1 (6bd9e232123f)
 [Subsystems] Discovering subsystems at path D:/Unity 2021.2.7f1/Editor/Data/Resources/UnitySubsystems
@@ -63,37 +63,37 @@ Initialize mono
 Mono path[0] = 'D:/Unity 2021.2.7f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity 2021.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Unity 2021.2.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56348
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56424
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity 2021.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002305 seconds.
+Registered in 0.002704 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 106.56 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 107.34 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.646 seconds
+- Completed reload, in  0.661 seconds
 Domain Reload Profiling:
-	ReloadAssembly (647ms)
-		BeginReloadAssembly (71ms)
+	ReloadAssembly (662ms)
+		BeginReloadAssembly (73ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (505ms)
-			LoadAssemblies (70ms)
+		EndReloadAssembly (515ms)
+			LoadAssemblies (72ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (105ms)
+			SetupTypeCache (109ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (319ms)
+			SetupLoadedEditorAssemblies (323ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (14ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (107ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (148ms)
+				ProcessInitializeOnLoadAttributes (150ms)
 				ProcessInitializeOnLoadMethodAttributes (49ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -101,51 +101,51 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004786 seconds.
+Registered in 0.004942 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Programování\NEW PROJECTS ON NAS\Unity\NEWHORRORGAME\HorrorGame\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Programování\NEW PROJECTS ON NAS\Unity\NEWHORRORGAME\HorrorGame\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.063 seconds
+- Completed reload, in  1.189 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1064ms)
-		BeginReloadAssembly (107ms)
+	ReloadAssembly (1190ms)
+		BeginReloadAssembly (111ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (856ms)
-			LoadAssemblies (80ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (962ms)
+			LoadAssemblies (82ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (281ms)
+			SetupTypeCache (292ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (398ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (478ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
+				InitializePlatformSupportModulesInManaged (13ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (93ms)
-				ProcessInitializeOnLoadAttributes (261ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (327ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3661 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 27 unused Assets / (88.8 KB). Loaded Objects now: 4143.
 Memory consumption went from 145.1 MB to 145.0 MB.
-Total: 3.481700 ms (FindLiveObjects: 0.286500 ms CreateObjectMapping: 0.200800 ms MarkObjects: 2.894600 ms  DeleteObjects: 0.098900 ms)
+Total: 3.517100 ms (FindLiveObjects: 0.343400 ms CreateObjectMapping: 0.301200 ms MarkObjects: 2.758300 ms  DeleteObjects: 0.112800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -159,43 +159,55 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 18269.914133 seconds.
-  path: Assets/Models/Interier
-  artifactKey: Guid(eea466619058e9f4783b092fe5a531c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Interier using Guid(eea466619058e9f4783b092fe5a531c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f57e6da65395c9d1bff8e98a7000ea4') in 0.005841 seconds 
+  Time since last request: 13761.182545 seconds.
+  path: Assets/Models/vokna.fbx
+  artifactKey: Guid(817505d707e4e0b49b4f36cc5b1c8f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/vokna.fbx using Guid(817505d707e4e0b49b4f36cc5b1c8f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '917c57ea605cbbcf0394df58b949dc38') in 0.387419 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.499804 seconds.
-  path: Assets/Models/Interier/Enterance
-  artifactKey: Guid(ee502bc8c7c94ad4cb9c3668d131b9ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Interier/Enterance using Guid(ee502bc8c7c94ad4cb9c3668d131b9ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbee0eb2eb64eec80a2b5274b4158df0') in 0.001613 seconds 
+  Time since last request: 110.922351 seconds.
+  path: Assets/Models/Windows
+  artifactKey: Guid(9c3b3859f4969e049b140c6b1f2bd9bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Windows using Guid(9c3b3859f4969e049b140c6b1f2bd9bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a812f1b042e23dd7ad14271251f05d78') in 0.002127 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.157169 seconds.
-  path: Assets/Models/Interier/Wall
-  artifactKey: Guid(527e9b1742d315245b0dd98a1c507691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Interier/Wall using Guid(527e9b1742d315245b0dd98a1c507691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2a214d3047baed6dfbb915ce7516241') in 0.001718 seconds 
+  Time since last request: 536.291570 seconds.
+  path: Assets/Models/Windows/halldoor1_DefaultMaterial_BaseColor.png
+  artifactKey: Guid(45c3d49d2cb0ce44288d13901273063a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Windows/halldoor1_DefaultMaterial_BaseColor.png using Guid(45c3d49d2cb0ce44288d13901273063a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f2e69138fc220730c3d24bbda95c466') in 0.191567 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.991771 seconds.
-  path: Assets/Models/Interier/WallWithDoor
-  artifactKey: Guid(ee502bc8c7c94ad4cb9c3668d131b9ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Interier/WallWithDoor using Guid(ee502bc8c7c94ad4cb9c3668d131b9ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e57035a994ad8954d3599369ce109e2f') in 0.001496 seconds 
+  Time since last request: 0.000031 seconds.
+  path: Assets/Models/Windows/halldoor1_DefaultMaterial_Height.png
+  artifactKey: Guid(8cba5cc3e02b54c4ba7a5bedeb947295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Windows/halldoor1_DefaultMaterial_Height.png using Guid(8cba5cc3e02b54c4ba7a5bedeb947295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb709970703957d64ba7a6b9539fbed2') in 0.009444 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 38.650520 seconds.
-  path: Assets/Models/Interier/WallWithDoor/WallWithDoor.fbx
-  artifactKey: Guid(11ee73853d0d93c43945d4e6194100fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Interier/WallWithDoor/WallWithDoor.fbx using Guid(11ee73853d0d93c43945d4e6194100fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d01e0a1748835ef7fb733006d2faa2f') in 0.171601 seconds 
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/Windows/halldoor1_DefaultMaterial_Metallic.png
+  artifactKey: Guid(60ceaa385c2e08f42b91af7443aaa103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Windows/halldoor1_DefaultMaterial_Metallic.png using Guid(60ceaa385c2e08f42b91af7443aaa103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5618ee534623f4cba069547c8ecd14d1') in 0.026859 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 58.500310 seconds.
-  path: Assets/Models/Interier/WallWithDoor/WallWithDoor.fbx
-  artifactKey: Guid(11ee73853d0d93c43945d4e6194100fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Interier/WallWithDoor/WallWithDoor.fbx using Guid(11ee73853d0d93c43945d4e6194100fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e7c1e1056dea3aede0efc22665c548e') in 0.055320 seconds 
+  Time since last request: 0.000021 seconds.
+  path: Assets/Models/Windows/halldoor1_DefaultMaterial_Normal.png
+  artifactKey: Guid(e60a3dafe49cc7844b86e6130dac3561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Windows/halldoor1_DefaultMaterial_Normal.png using Guid(e60a3dafe49cc7844b86e6130dac3561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99864386c0045b3a5d192962c983e264') in 0.006751 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 357.088314 seconds.
-  path: Assets/Models/Interier/Wall/Stena.fbx
-  artifactKey: Guid(0ebbe7dcff4eeaf47aff6823d3bff066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Interier/Wall/Stena.fbx using Guid(0ebbe7dcff4eeaf47aff6823d3bff066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c8dba67164cee4a7414afcd2a88822a') in 0.043737 seconds 
+  Time since last request: 0.000022 seconds.
+  path: Assets/Models/Windows/halldoor1_DefaultMaterial_Roughness.png
+  artifactKey: Guid(3910154bc0a15984bae6a3e2b359ea31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Windows/halldoor1_DefaultMaterial_Roughness.png using Guid(3910154bc0a15984bae6a3e2b359ea31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed146a2a228d004e8866454150efbe55') in 0.007240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/Windows/SchoolWhiteBoard_DefaultMaterial_BaseColor.png
+  artifactKey: Guid(e3cf44e99c9856946a9811ee76cfa02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Windows/SchoolWhiteBoard_DefaultMaterial_BaseColor.png using Guid(e3cf44e99c9856946a9811ee76cfa02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8d5f58dd274cb8cd52b805cb2e1e7cd') in 0.027370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/Windows/SchoolWhiteBoard_DefaultMaterial_Height.png
+  artifactKey: Guid(d0f8d58731375614db315691e3dbc14c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Windows/SchoolWhiteBoard_DefaultMaterial_Height.png using Guid(d0f8d58731375614db315691e3dbc14c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff7d0ec069ec0bb63e82b5fc56d97327') in 0.009764 seconds 
