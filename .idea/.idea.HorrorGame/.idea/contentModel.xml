@@ -9,6 +9,8 @@
         <e p="Scripts" t="Include">
           <e p="CameraController.cs" t="Include" />
           <e p="LobbyScript.cs" t="Include" />
+          <e p="PlayerCamera.cs" t="Include" />
+          <e p="PlayerMovementController.cs" t="Include" />
         </e>
         <e p="SinglePlayer" t="Include">
           <e p="CameraHolderFollowBody.cs" t="Include" />

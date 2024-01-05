@@ -94,8 +94,8 @@ MonoBehaviour:
     y: 0
     width: 353
     height: 583
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -389,7 +389,7 @@ MonoBehaviour:
     m_SaveData: []
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 23220
+  m_LastSelectedObjectID: 25800
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -431,22 +431,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Models/Windows/drevo
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Models/Windows/drevo
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: "D:\\Programov\xE1n\xED\\NEW PROJECTS ON NAS\\Unity\\NEWHORRORGAME\\HorrorGame"
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 173}
-    m_SelectedIDs: 8a680000
-    m_LastClickedID: 26762
-    m_ExpandedIDs: 0000000020620000226200009062000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: 10630000
+    m_LastClickedID: 25360
+    m_ExpandedIDs: 00000000106300001263000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -474,7 +474,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000002062000022620000
+    m_ExpandedIDs: 000000001063000012630000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -601,10 +601,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 1395}
+      scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: d4f4ffff26fbffff
+      m_ExpandedIDs: 74dafeffc0e1ffff24e5ffff46f6ffff26fbffffc8640000f4650000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -853,9 +853,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 24.712215, y: 4.778891, z: -18.326777}
+    m_Target: {x: 24.298832, y: 7.0489264, z: -13.588897}
     speed: 2
-    m_Value: {x: 24.712215, y: 4.778891, z: -18.326777}
+    m_Value: {x: 24.298832, y: 7.0489264, z: -13.588897}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -902,13 +902,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.019594133, y: -0.9968509, z: 0.054291066, w: -0.019129677}
+    m_Target: {x: -0.033112746, y: 0.9980903, z: -0.0015713961, w: 0.00035200533}
     speed: 2
-    m_Value: {x: 0.019538, y: -0.9981149, z: 0.054390896, w: -0.020651702}
+    m_Value: {x: -0.033157244, y: 0.9994453, z: -0.003072697, w: 0.00040249212}
   m_Size:
-    m_Target: 9.688834
+    m_Target: 8.729638
     speed: 2
-    m_Value: 9.688834
+    m_Value: 8.729638
   m_Ortho:
     m_Target: 0
     speed: 2
