@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/GYMIKLOBBY.unity
+- path: Assets/Scenes/GYMIKGAME.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
